@@ -25,6 +25,7 @@ public class Card {
     }
 
     public void setCost(int cost) {
-        this.cost = cost;
+        if(cost >= 0)
+            this.cost = cost;
     }
 }

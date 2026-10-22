@@ -12,4 +12,15 @@ class CardTest {
         // TODO: complete
     }
 
+    @Test
+    public void cardCostTest(){
+        Card newCard = new Card();
+        assertEquals(0, newCard.getCost());
+        newCard.setCost(-5);
+        assertEquals(0, newCard.getCost());
+        newCard.setCost(2);
+        assertEquals(2, newCard.getCost());
+        newCard.setCost(4);
+        assertEquals(4, newCard.getCost());
+    }
 }
