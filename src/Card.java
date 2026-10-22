@@ -1,3 +1,4 @@
+//Code for task 2 of Pull Requests Activity
 public class Card {
     private String name;
     private int cost;
