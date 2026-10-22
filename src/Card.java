@@ -19,4 +19,8 @@ public class Card {
     public boolean isUpgraded() {
         return upgraded;
     }
+
+    public void setUpgraded(boolean upgraded) {
+        this.upgraded = upgraded;
+    }
 }
