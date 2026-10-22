@@ -23,4 +23,8 @@ public class Card {
     public void setUpgraded(boolean upgraded) {
         this.upgraded = upgraded;
     }
+
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
 }
